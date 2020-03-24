@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styleGame.css" />
+  </head>
+  <body>
+    <header></header>
+    <div class="wrapper">
+      <h1>!!!WYGRANA!!!</h1>
+      <section class="calc">
+        <button id="draw">LOSUJ</button>
+        <div class="oneN"></div>
+        <div class="action"></div>
+        <div class="twoN"></div>
+        <div class="sign">=</div>
+        <div class="score">
+          <input type="number" id="wynik" name="wynik" min="0" max="20" />
+          <div class="info">Podaj wynik</div>
+        </div>
+
+        <button id="check">SPRAWDŹ</button>
+        <div id="results"></div>
+      </section>
+      <div class="play">ZAGRAJ JESZCZE RAZ</div>
+    </div>
+    <footer></footer>
+    <script src="Calc.js"></script>
+    <script src="Results.js"></script>
+    <script src="Point.js"></script>
+    <script src="Gift.js"></script>
+  </body>
+</html>
