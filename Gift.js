@@ -21,7 +21,7 @@ class Gift {
         img: "/img/d_5.jpg"
       },
       {
-        img: "/img/d_6.jpg"
+        img: "/img/d_6.png"
       },
       {
         img: "/img/d_7.jpg"
@@ -30,7 +30,7 @@ class Gift {
         img: "/img/d_8.jpg"
       },
       {
-        img: "/img/d_9.jpg"
+        img: "/img/d_9.png"
       },
       {
         img: "/img/d_10.jpg"
@@ -40,15 +40,19 @@ class Gift {
       },
       {
         img: "/img/d_12.jpg"
+      },
+      {
+        img: "/img/d_12.jpg"
       }
     ];
     this.randomPicture();
   }
   randomPicture = () => {
     let active = Math.floor(Math.random() * 12);
+    console.log(active);
+
     this.calc.style.opacity = 0;
     this.wrapper.style.backgroundImage = `url(${this.imgList[active].img})`;
-    console.log(this.imgList);
     this.palyAgain();
   };
   palyAgain = () => {
