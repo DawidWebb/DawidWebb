@@ -26,7 +26,7 @@
   text-align: center;
   font-size: 8px;
   /* animation: bigger 2s infinite; */
-  opacity: 0;
+  display: none;
 }
 @keyframes bigger {
   0% {
@@ -47,7 +47,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  display: flex;
   width: 100%;
   height: 85%;
 }
@@ -78,6 +77,7 @@
   font-size: 20px;
   background-color: transparent;
 }
+
 #wynik {
   width: 60px;
   font-size: 40px;
@@ -91,6 +91,7 @@
   margin-top: 100px;
   background-color: #ef37af;
   color: #011b4c;
+  cursor: pointer;
 }
 
 #check {
@@ -99,6 +100,7 @@
   border-radius: 50px;
   font-size: 36px;
   font-weight: 700;
+  cursor: pointer;
 }
 div.giftOne {
   flex-basis: 18%;
@@ -135,4 +137,324 @@ div.giftOne {
   background-color: #0de0e0;
   color: #f52c54;
   opacity: 0;
+  cursor: pointer;
+}
+@media (min-width: 421px) and (orientation: portrait) {
+  .wrapper {
+    max-width: 600px;
+    background-position-x: 0px;
+  }
+  .wrapper h1 {
+    font-size: 12px;
+  }
+  @keyframes bigger {
+    0% {
+      font-size: 48px;
+    }
+    33% {
+      font-size: 38px;
+      color: #f52c54;
+    }
+    66% {
+      font-size: 48px;
+    }
+    100% {
+      font-size: 38px;
+    }
+  }
+
+  .calc div {
+    width: 64px;
+    height: 75px;
+    line-height: 64px;
+    font-size: 45px;
+  }
+
+  .calc .sign {
+    font-size: 38px;
+    line-height: 75px;
+  }
+
+  #wynik {
+    width: 70px;
+    height: 75px;
+    font-size: 42px;
+  }
+  #draw {
+    height: 80px;
+    font-size: 56px;
+  }
+
+  #check {
+    height: 80px;
+    font-size: 42px;
+  }
+
+  div.giftOne {
+    flex-basis: 19%;
+    height: 60px;
+  }
+  .calc .info {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .play {
+    width: 330px;
+    height: 140px;
+    font-size: 40px;
+  }
+}
+@media (min-width: 601px) and (orientation: portrait) {
+  .wrapper {
+    max-width: 800px;
+  }
+  .wrapper h1 {
+    font-size: 16px;
+  }
+  @keyframes bigger {
+    0% {
+      font-size: 58px;
+    }
+    33% {
+      font-size: 48px;
+      color: #f52c54;
+    }
+    66% {
+      font-size: 58px;
+    }
+    100% {
+      font-size: 48px;
+    }
+  }
+
+  .calc div {
+    width: 85px;
+    height: 95px;
+    line-height: 95px;
+    font-size: 50px;
+  }
+
+  .calc .sign {
+    font-size: 50px;
+    line-height: 85px;
+  }
+
+  #wynik {
+    width: 85px;
+    height: 95px;
+    font-size: 50px;
+  }
+  .calc .info {
+    font-size: 34px;
+    font-weight: 700;
+  }
+  #results {
+    width: 600px;
+    height: 120px;
+  }
+  div.giftOne {
+    flex-basis: 20%;
+    height: 120px;
+  }
+
+  .play {
+    width: 550px;
+    height: 140px;
+    font-size: 42px;
+    line-height: 140px;
+  }
+}
+@media (min-width: 481px) and (orientation: landscape) {
+  .wrapper {
+    max-width: 640px;
+    background-position-x: 0px;
+  }
+  .wrapper h1 {
+    padding-top: 0px;
+  }
+
+  .calc {
+    height: 95%;
+  }
+  .calc div {
+    width: 65px;
+  }
+
+  .calc .sign {
+    border: none;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 60px;
+  }
+  .calc .score {
+    width: 70px;
+    height: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+  }
+
+  #wynik {
+    width: 65px;
+  }
+  #draw {
+    height: 50px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  #check {
+    height: 50px;
+    font-size: 30px;
+  }
+  div.giftOne {
+    flex-basis: 17%;
+  }
+
+  #results {
+    display: flex;
+    justify-content: left;
+    width: 300px;
+  }
+}
+@media (min-width: 641px) and (orientation: landscape) {
+  .wrapper {
+    max-width: 800px;
+  }
+  .wrapper h1 {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  @keyframes bigger {
+    0% {
+      font-size: 48px;
+    }
+    33% {
+      font-size: 38px;
+      color: #f52c54;
+    }
+    66% {
+      font-size: 48px;
+    }
+    100% {
+      font-size: 38px;
+    }
+  }
+  .calc {
+    height: 95%;
+  }
+  .calc div {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    font-size: 40px;
+  }
+
+  .calc .sign {
+    font-size: 40px;
+    line-height: 85px;
+  }
+  .calc .score {
+    font-size: 40px;
+  }
+
+  #wynik {
+    width: 85px;
+    height: 85px;
+  }
+  #draw {
+    height: 70px;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  #check {
+    height: 70px;
+    font-size: 50px;
+  }
+  div.giftOne {
+    flex-basis: 20%;
+    height: 100px;
+  }
+
+  #results {
+    width: 500px;
+    height: 100px;
+  }
+  .play {
+    width: 650px;
+    font-size: 52px;
+    line-height: 110px;
+  }
+}
+@media (min-width: 801px) and (orientation: landscape) {
+  .wrapper {
+    max-width: 1200px;
+  }
+  .wrapper h1 {
+    position: fixed;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 26px;
+  }
+  @keyframes bigger {
+    0% {
+      font-size: 58px;
+    }
+    33% {
+      font-size: 48px;
+      color: #f52c54;
+    }
+    66% {
+      font-size: 58px;
+    }
+    100% {
+      font-size: 48px;
+    }
+  }
+
+  .calc div {
+    width: 130px;
+    height: 105px;
+    line-height: 105px;
+    font-size: 44px;
+  }
+
+  .calc .sign {
+    font-size: 44px;
+    line-height: 105px;
+  }
+  .calc .score {
+    font-size: 44px;
+  }
+  .score .info {
+    font-size: 36px;
+  }
+
+  #wynik {
+    width: 120px;
+    height: 105px;
+  }
+  #draw {
+    flex-basis: 90;
+    height: 70px;
+    font-size: 50px;
+    margin-top: 30px;
+  }
+
+  #check {
+    margin-top: 30px;
+  }
+
+  #results {
+    width: 550px;
+    height: 110px;
+  }
+  .play {
+    width: 650px;
+    font-size: 52px;
+    line-height: 110px;
+  }
 }

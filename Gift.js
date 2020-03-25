@@ -53,7 +53,7 @@ class Gift {
   };
   palyAgain = () => {
     this.paly.style.opacity = 1;
-    this.h1.style.opacity = 1;
+    this.h1.style.display = "block";
     this.h1.style.animation = "bigger 2s infinite";
     this.paly.addEventListener("click", () => {
       window.location.assign("./game.html");
