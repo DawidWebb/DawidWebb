@@ -11,7 +11,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Pangolin", cursive;
+  font-family: "Roboto", sans-serif;
 }
 .wrapper {
   margin: 0 auto;
@@ -136,7 +136,7 @@ div.giftOne {
   border: 2px solid #f52c54;
   background-color: #0de0e0;
   color: #f52c54;
-  opacity: 0;
+  display: none;
   cursor: pointer;
 }
 @media (min-width: 421px) and (orientation: portrait) {
@@ -274,7 +274,7 @@ div.giftOne {
   }
 
   .calc {
-    height: 95%;
+    height: 100%;
   }
   .calc div {
     width: 65px;
@@ -294,19 +294,26 @@ div.giftOne {
     font-size: 20px;
     background-color: transparent;
   }
-
+  .calc .info {
+    font-size: 26px;
+    font-weight: 700;
+  }
   #wynik {
     width: 65px;
   }
+
   #draw {
-    height: 50px;
-    font-size: 30px;
-    margin-top: 0px;
+    flex-basis: 90%;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 26px;
   }
 
   #check {
-    height: 50px;
-    font-size: 30px;
+    margin-top: 15px;
+    height: 40px;
+    font-size: 26px;
   }
   div.giftOne {
     flex-basis: 17%;
@@ -316,6 +323,7 @@ div.giftOne {
     display: flex;
     justify-content: left;
     width: 300px;
+    height: 55px;
   }
 }
 @media (min-width: 641px) and (orientation: landscape) {
@@ -342,45 +350,46 @@ div.giftOne {
     }
   }
   .calc {
-    height: 95%;
+    height: 100%;
   }
   .calc div {
-    width: 85px;
-    height: 85px;
-    line-height: 85px;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
     font-size: 40px;
   }
 
   .calc .sign {
     font-size: 40px;
-    line-height: 85px;
+    line-height: 65px;
   }
   .calc .score {
     font-size: 40px;
   }
 
   #wynik {
-    width: 85px;
-    height: 85px;
+    width: 65px;
+    height: 65px;
   }
   #draw {
-    height: 70px;
-    font-size: 50px;
-    margin-top: 30px;
+    flex-basis: 95%;
+    height: 50px;
+    font-size: 32px;
+    margin-top: 40px;
   }
 
   #check {
-    height: 70px;
-    font-size: 50px;
+    height: 50px;
+    font-size: 32px;
   }
   div.giftOne {
-    flex-basis: 20%;
-    height: 100px;
+    flex-basis: 17%;
+    height: 50px;
   }
 
   #results {
-    width: 500px;
-    height: 100px;
+    width: 300px;
+    height: 55px;
   }
   .play {
     width: 650px;
@@ -416,7 +425,7 @@ div.giftOne {
   }
 
   .calc div {
-    width: 130px;
+    width: 100px;
     height: 105px;
     line-height: 105px;
     font-size: 44px;
@@ -434,18 +443,26 @@ div.giftOne {
   }
 
   #wynik {
-    width: 120px;
+    width: 100px;
     height: 105px;
+    font-weight: 700;
+    font-size: 44px;
   }
   #draw {
-    flex-basis: 90;
+    flex-basis: 95%;
+    height: 70px;
+    font-size: 50px;
+    margin-top: 100px;
+  }
+
+  #check {
     height: 70px;
     font-size: 50px;
     margin-top: 30px;
   }
-
-  #check {
-    margin-top: 30px;
+  div.giftOne {
+    flex-basis: 20%;
+    height: 105px;
   }
 
   #results {

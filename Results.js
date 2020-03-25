@@ -21,7 +21,7 @@ class Results extends Calc {
     ) {
       const point = new Point();
       this.points++;
-      if (this.points === 5) {
+      if (this.points === 2) {
         const gift = new Gift();
       }
     } else {
