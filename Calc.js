@@ -21,7 +21,17 @@ class Calc {
       17,
       18,
       19,
-      20
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
     ];
     this.numbers2 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
@@ -37,8 +47,8 @@ class Calc {
       .addEventListener("click", this.randomNumber.bind(this));
   }
   randomNumber() {
-    let number1 = Math.floor(Math.random() * 21);
-    let number2 = Math.floor(Math.random() * 21);
+    let number1 = Math.floor(Math.random() * this.numbers1.length);
+    let number2 = Math.floor(Math.random() * this.numbers1.length);
     let number3 = Math.floor(Math.random() * 11);
     let number4 = Math.floor(Math.random() * 11);
 
@@ -49,13 +59,13 @@ class Calc {
       this.firstN = this.numbers1[number1];
       this.secondN = this.numbers1[number2];
     } else if (number1 < number2) {
-      if (number1 + number2 <= 20) {
+      if (number1 + number2 <= 30) {
         this.action.textContent = `${this.sign[0]}`;
         this.oneN.textContent = `${this.numbers1[number1]}`;
         this.twoN.textContent = `${this.numbers1[number2]}`;
         this.firstN = this.numbers1[number1];
         this.secondN = this.numbers1[number2];
-      } else if (number1 + number2 > 20) {
+      } else if (number1 + number2 > 30) {
         this.action.textContent = `${this.sign[0]}`;
         this.oneN.textContent = `${this.numbers2[number3]}`;
         this.twoN.textContent = `${this.numbers2[number4]}`;
