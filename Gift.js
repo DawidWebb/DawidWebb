@@ -6,44 +6,44 @@ class Gift {
     this.h1 = document.querySelector("h1");
     this.imgList = [
       {
-        img: "/img/d_1.jpg"
+        img: "/Mathematics/img/d_1.jpg",
       },
       {
-        img: "/img/d_2.jpg"
+        img: "/Mathematics/img/d_2.jpg",
       },
       {
-        img: "/img/d_3.jpg"
+        img: "/Mathematics/img/d_3.jpg",
       },
       {
-        img: "/img/d_4.jpg"
+        img: "/Mathematics/img/d_4.jpg",
       },
       {
-        img: "/img/d_5.jpg"
+        img: "/Mathematics/img/d_5.jpg",
       },
       {
-        img: "/img/d_6.png"
+        img: "/Mathematics/img/d_6.png",
       },
       {
-        img: "/img/d_7.jpg"
+        img: "/Mathematics/img/d_7.jpg",
       },
       {
-        img: "/img/d_8.jpg"
+        img: "/Mathematics/img/d_8.jpg",
       },
       {
-        img: "/img/d_9.png"
+        img: "/Mathematics/img/d_9.png",
       },
       {
-        img: "/img/d_10.jpg"
+        img: "/Mathematics/img/d_10.jpg",
       },
       {
-        img: "/img/d_11.jpg"
+        img: "/Mathematics/img/d_11.jpg",
       },
       {
-        img: "/img/d_12.jpg"
+        img: "/Mathematics/img/d_12.jpg",
       },
       {
-        img: "/img/d_12.jpg"
-      }
+        img: "/Mathematics/img/d_12.jpg",
+      },
     ];
     this.randomPicture();
   }

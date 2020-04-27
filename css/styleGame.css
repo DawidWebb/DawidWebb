@@ -17,7 +17,7 @@
   margin: 0 auto;
   max-width: 420px;
   height: 100vh;
-  background-image: url(/img/desert-1270345_640.jpg);
+  background-image: url(/Mathematics/img/desert-1270345_640.jpg);
   background-size: cover;
   background-position-x: -100px;
 }
@@ -105,7 +105,7 @@
 div.giftOne {
   flex-basis: 18%;
   height: 50px;
-  background-image: url(/img/wygrana.png);
+  background-image: url(/Mathematics/img/wygrana.png);
   background-size: cover;
   border: none;
 }
